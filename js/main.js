@@ -15,6 +15,8 @@ $(document).ready(function(){
             };
     
         $.get(url, settings).done(function(data){
+            $tableBody.empty();
+
             $xmlMarketData = $(data);
             console.log("loaded Marketdata.");
             var itemname, station_name, reported_time, expiry_date, vol_remaining, min_volume, price;
