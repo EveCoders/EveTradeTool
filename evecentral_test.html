@@ -56,7 +56,7 @@
       <div class="container">
         <h1>EVE Central testing site</h1>
         <p>Let' test something...</p>
-        <p><a class="btn btn-primary btn-lg" role="button" id="fetch-marketstats">Show me the market data! &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" role="button" id="fetch-marketstats">Show me the sell orders! &raquo;</a></p>
       </div>
     </div>
 
@@ -66,38 +66,16 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <td>Name</td>
-            <td>Volume</td>
-            <td>Min</td>
-            <td>Avg</td>
-            <td>Median</td>
-            <td>Max</td>
-            <td>Std. Dev.</td>
-            <td>%</td>
+            <td>Item Name</td>
+            <td>Station Name</td>
+            <td>Reported Time</td>
+            <td>Expiry Date</td>
+            <td>Qty. remaining</td>
+            <td>Min Qty.</td>
+            <td>Price</td>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-          </tr>
-          <tr>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            <td>[INHALT]</td>
-            
-          </tr>
+        <tbody id="market_table">
         </tbody>
         
       </table>
