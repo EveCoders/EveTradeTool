@@ -5005,3 +5005,11 @@ var itemInfo =
 function searchForItemWithName(str) {
 	return itemInfo.filter(function(obj) { return (obj.typeName.toLowerCase().indexOf(str.toLowerCase()) >= 0) })
 }
+
+function getFirstMatchingTypeID(itemname) {
+	var searchresult = searchForItemWithName(itemname);
+	if (searchresult.length === 0)
+		return -1;
+	else
+		return searchresult[0].typeID;
+}
