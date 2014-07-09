@@ -1,91 +1,5 @@
-{
-	"data":
-	[
-		{
-			"typeID": 0,
-			"typeName": "#System",
-			"volume": 0
-		},
-		{
-			"typeID": 2,
-			"typeName": "Corporation",
-			"volume": 0
-		},
-		{
-			"typeID": 3,
-			"typeName": "Region",
-			"volume": 1
-		},
-		{
-			"typeID": 4,
-			"typeName": "Constellation",
-			"volume": 1
-		},
-		{
-			"typeID": 5,
-			"typeName": "Solar System",
-			"volume": 1
-		},
-		{
-			"typeID": 6,
-			"typeName": "Sun G5 (Yellow)",
-			"volume": 1
-		},
-		{
-			"typeID": 7,
-			"typeName": "Sun K7 (Orange)",
-			"volume": 1
-		},
-		{
-			"typeID": 8,
-			"typeName": "Sun K5 (Red Giant)",
-			"volume": 1
-		},
-		{
-			"typeID": 9,
-			"typeName": "Sun B0 (Blue)",
-			"volume": 1
-		},
-		{
-			"typeID": 10,
-			"typeName": "Sun F0 (White)",
-			"volume": 1
-		},
-		{
-			"typeID": 11,
-			"typeName": "Planet (Temperate)",
-			"volume": 1
-		},
-		{
-			"typeID": 12,
-			"typeName": "Planet (Ice)",
-			"volume": 1
-		},
-		{
-			"typeID": 13,
-			"typeName": "Planet (Gas)",
-			"volume": 1
-		},
-		{
-			"typeID": 14,
-			"typeName": "Moon",
-			"volume": 1
-		},
-		{
-			"typeID": 15,
-			"typeName": "Asteroid Belt",
-			"volume": 1
-		},
-		{
-			"typeID": 16,
-			"typeName": "Stargate (Caldari System)",
-			"volume": 10000000
-		},
-		{
-			"typeID": 17,
-			"typeName": "Stargate (Amarr Constellation)",
-			"volume": 100000000
-		},
+var itemInfo =
+[
 		{
 			"typeID": 18,
 			"typeName": "Plagioclase",
@@ -110,46 +24,6 @@
 			"typeID": 22,
 			"typeName": "Arkonor",
 			"volume": 16
-		},
-		{
-			"typeID": 23,
-			"typeName": "Cargo Container",
-			"volume": 27500
-		},
-		{
-			"typeID": 24,
-			"typeName": "Ring",
-			"volume": 1
-		},
-		{
-			"typeID": 25,
-			"typeName": "Corpse",
-			"volume": 2
-		},
-		{
-			"typeID": 26,
-			"typeName": "Office Folder",
-			"volume": 1
-		},
-		{
-			"typeID": 27,
-			"typeName": "Office",
-			"volume": 1
-		},
-		{
-			"typeID": 28,
-			"typeName": "Factory Folder",
-			"volume": 1
-		},
-		{
-			"typeID": 29,
-			"typeName": "Credits",
-			"volume": 0
-		},
-		{
-			"typeID": 30,
-			"typeName": "Faction",
-			"volume": 0
 		},
 		{
 			"typeID": 34,
@@ -210,71 +84,6 @@
 			"typeID": 45,
 			"typeName": "Frozen Plant Seeds",
 			"volume": 0.5
-		},
-		{
-			"typeID": 49,
-			"typeName": "Player Kill",
-			"volume": 0
-		},
-		{
-			"typeID": 50,
-			"typeName": "Company Shares",
-			"volume": 0
-		},
-		{
-			"typeID": 51,
-			"typeName": "Bookmark",
-			"volume": 0
-		},
-		{
-			"typeID": 52,
-			"typeName": "Trading",
-			"volume": 0
-		},
-		{
-			"typeID": 53,
-			"typeName": "Trade Session",
-			"volume": 0
-		},
-		{
-			"typeID": 54,
-			"typeName": "Caldari Logistics Station",
-			"volume": 1
-		},
-		{
-			"typeID": 56,
-			"typeName": "Gallente Military Station",
-			"volume": 1
-		},
-		{
-			"typeID": 57,
-			"typeName": "Gallente Station Hub ",
-			"volume": 1
-		},
-		{
-			"typeID": 58,
-			"typeName": "C-O-1",
-			"volume": 1
-		},
-		{
-			"typeID": 59,
-			"typeName": "C-O-2",
-			"volume": 1
-		},
-		{
-			"typeID": 164,
-			"typeName": "Clone Grade Alpha",
-			"volume": 1
-		},
-		{
-			"typeID": 165,
-			"typeName": "Clone Grade Beta",
-			"volume": 1
-		},
-		{
-			"typeID": 166,
-			"typeName": "Clone Grade Gamma",
-			"volume": 1
 		},
 		{
 			"typeID": 178,
@@ -725,11 +534,6 @@
 			"typeID": 269,
 			"typeName": "Mjolnir Auto-Targeting Light Missile I",
 			"volume": 0.015
-		},
-		{
-			"typeID": 270,
-			"typeName": "Python Mine",
-			"volume": 0.15
 		},
 		{
 			"typeID": 377,
@@ -1232,11 +1036,6 @@
 			"volume": 29500
 		},
 		{
-			"typeID": 595,
-			"typeName": "Gallente Police Ship",
-			"volume": 20400
-		},
-		{
 			"typeID": 596,
 			"typeName": "Impairor",
 			"volume": 28100
@@ -1255,11 +1054,6 @@
 			"typeID": 599,
 			"typeName": "Burst",
 			"volume": 17100
-		},
-		{
-			"typeID": 600,
-			"typeName": "Minmatar Peacekeeper Ship",
-			"volume": 12000
 		},
 		{
 			"typeID": 601,
@@ -1302,39 +1096,14 @@
 			"volume": 23000
 		},
 		{
-			"typeID": 613,
-			"typeName": "Devourer",
-			"volume": 19100
-		},
-		{
-			"typeID": 614,
-			"typeName": "Fury",
-			"volume": 26000
-		},
-		{
 			"typeID": 615,
 			"typeName": "Immolator",
 			"volume": 17400
 		},
 		{
-			"typeID": 616,
-			"typeName": "Medusa",
-			"volume": 17500
-		},
-		{
 			"typeID": 617,
 			"typeName": "Echo",
 			"volume": 17660
-		},
-		{
-			"typeID": 618,
-			"typeName": "Lynx",
-			"volume": 22500
-		},
-		{
-			"typeID": 619,
-			"typeName": "Swordspine",
-			"volume": 21120
 		},
 		{
 			"typeID": 620,
@@ -1410,11 +1179,6 @@
 			"typeID": 634,
 			"typeName": "Exequror",
 			"volume": 113000
-		},
-		{
-			"typeID": 635,
-			"typeName": "Opux Luxury Yacht",
-			"volume": 115000
 		},
 		{
 			"typeID": 638,
@@ -1507,11 +1271,6 @@
 			"volume": 275000
 		},
 		{
-			"typeID": 670,
-			"typeName": "Capsule",
-			"volume": 1000
-		},
-		{
 			"typeID": 671,
 			"typeName": "Erebus",
 			"volume": 145500000
@@ -1520,16 +1279,6 @@
 			"typeID": 672,
 			"typeName": "Caldari Shuttle",
 			"volume": 5000
-		},
-		{
-			"typeID": 681,
-			"typeName": "Clone Grade Beta Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 682,
-			"typeName": "Clone Grade Gamma Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 683,
@@ -1584,11 +1333,6 @@
 		{
 			"typeID": 693,
 			"typeName": "Tempest Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 784,
-			"typeName": "Miner II Blueprint",
 			"volume": 0.01
 		},
 		{
@@ -1942,11 +1686,6 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 935,
-			"typeName": "Reaper Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 936,
 			"typeName": "Executioner Blueprint",
 			"volume": 0.01
@@ -1977,11 +1716,6 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 943,
-			"typeName": "Impairor Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 944,
 			"typeName": "Punisher Blueprint",
 			"volume": 0.01
@@ -1994,16 +1728,6 @@
 		{
 			"typeID": 946,
 			"typeName": "Burst Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 947,
-			"typeName": "Minmatar Peacekeeper Ship Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 948,
-			"typeName": "Ibis Blueprint",
 			"volume": 0.01
 		},
 		{
@@ -2022,11 +1746,6 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 953,
-			"typeName": "Velator Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 954,
 			"typeName": "Imicus Blueprint",
 			"volume": 0.01
@@ -2039,41 +1758,6 @@
 		{
 			"typeID": 956,
 			"typeName": "Maulus Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 960,
-			"typeName": "Devourer Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 961,
-			"typeName": "Fury Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 962,
-			"typeName": "Immolator Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 963,
-			"typeName": "Medusa Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 964,
-			"typeName": "Echo Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 965,
-			"typeName": "Lynx Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 966,
-			"typeName": "Swordspine Blueprint",
 			"volume": 0.01
 		},
 		{
@@ -2232,18 +1916,8 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 1013,
-			"typeName": "Small Shield Extender II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1026,
 			"typeName": "Shield Recharger I Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1027,
-			"typeName": "Shield Recharger II Blueprint",
 			"volume": 0.01
 		},
 		{
@@ -2252,28 +1926,13 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 1033,
-			"typeName": "Small Shield Booster II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1067,
 			"typeName": "1MN Microwarpdrive I Blueprint",
 			"volume": 0.01
 		},
 		{
-			"typeID": 1071,
-			"typeName": "1MN Afterburner II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1072,
 			"typeName": "1MN Afterburner I Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1073,
-			"typeName": "1MN Microwarpdrive II Blueprint",
 			"volume": 0.01
 		},
 		{
@@ -2297,16 +1956,6 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 1080,
-			"typeName": "Warp Scrambler II Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1095,
-			"typeName": "Gyrostabilizer II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1096,
 			"typeName": "Gyrostabilizer I Blueprint",
 			"volume": 0.01
@@ -2324,11 +1973,6 @@
 		{
 			"typeID": 1102,
 			"typeName": "Stasis Webifier I Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1103,
-			"typeName": "Stasis Webifier II Blueprint",
 			"volume": 0.01
 		},
 		{
@@ -2692,11 +2336,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1184,
-			"typeName": "Small Armor Repairer II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1185,
 			"typeName": "Small Capacitor Battery I",
 			"volume": 5
@@ -2712,11 +2351,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1191,
-			"typeName": "Small Remote Capacitor Transmitter II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1192,
 			"typeName": "Basic Overdrive Injector System",
 			"volume": 5
@@ -2725,11 +2359,6 @@
 			"typeID": 1193,
 			"typeName": "Basic EM Plating",
 			"volume": 5
-		},
-		{
-			"typeID": 1194,
-			"typeName": "Amarr Sentry Gun",
-			"volume": 1000
 		},
 		{
 			"typeID": 1195,
@@ -2767,11 +2396,6 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 1205,
-			"typeName": "EM Plating II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1208,
 			"typeName": "Auto Targeting System I Blueprint",
 			"volume": 0.01
@@ -2799,11 +2423,6 @@
 		{
 			"typeID": 1216,
 			"typeName": "Mjolnir Auto-Targeting Light Missile I Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1217,
-			"typeName": "Python Mine Blueprint",
 			"volume": 0.01
 		},
 		{
@@ -2872,19 +2491,9 @@
 			"volume": 8
 		},
 		{
-			"typeID": 1233,
-			"typeName": "Polaris Enigma Frigate",
-			"volume": 20400
-		},
-		{
 			"typeID": 1236,
 			"typeName": "Overdrive Injector System II",
 			"volume": 5
-		},
-		{
-			"typeID": 1237,
-			"typeName": "Overdrive Injector System II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 1240,
@@ -2922,11 +2531,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1249,
-			"typeName": "Capacitor Flux Coil II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1254,
 			"typeName": "Shield Flux Coil I",
 			"volume": 5
@@ -2940,11 +2544,6 @@
 			"typeID": 1256,
 			"typeName": "Shield Flux Coil II",
 			"volume": 5
-		},
-		{
-			"typeID": 1257,
-			"typeName": "Shield Flux Coil II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 1262,
@@ -2967,11 +2566,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1267,
-			"typeName": "Explosive Plating II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1272,
 			"typeName": "Basic Layered Plating",
 			"volume": 5
@@ -2990,11 +2584,6 @@
 			"typeID": 1276,
 			"typeName": "Layered Plating II",
 			"volume": 5
-		},
-		{
-			"typeID": 1277,
-			"typeName": "Layered Plating II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 1282,
@@ -3017,11 +2606,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1287,
-			"typeName": "Kinetic Plating II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1292,
 			"typeName": "Basic Thermic Plating",
 			"volume": 5
@@ -3040,11 +2624,6 @@
 			"typeID": 1296,
 			"typeName": "Thermic Plating II",
 			"volume": 5
-		},
-		{
-			"typeID": 1297,
-			"typeName": "Thermic Plating II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 1302,
@@ -3067,11 +2646,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1307,
-			"typeName": "Adaptive Nano Plating II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1315,
 			"typeName": "Basic Expanded Cargohold",
 			"volume": 5
@@ -3092,11 +2666,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1320,
-			"typeName": "Expanded Cargohold II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1333,
 			"typeName": "Reinforced Bulkheads I",
 			"volume": 25
@@ -3110,11 +2679,6 @@
 			"typeID": 1335,
 			"typeName": "Reinforced Bulkheads II",
 			"volume": 5
-		},
-		{
-			"typeID": 1336,
-			"typeName": "Reinforced Bulkheads II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 1351,
@@ -3137,81 +2701,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1356,
-			"typeName": "Reactor Control Unit II Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1373,
-			"typeName": "CharacterAmarr",
-			"volume": 1
-		},
-		{
-			"typeID": 1374,
-			"typeName": "CharacterNiKunni",
-			"volume": 1
-		},
-		{
-			"typeID": 1375,
-			"typeName": "CharacterCivire",
-			"volume": 1
-		},
-		{
-			"typeID": 1376,
-			"typeName": "CharacterDeteis",
-			"volume": 1
-		},
-		{
-			"typeID": 1377,
-			"typeName": "CharacterGallente",
-			"volume": 1
-		},
-		{
-			"typeID": 1378,
-			"typeName": "CharacterIntaki",
-			"volume": 1
-		},
-		{
-			"typeID": 1379,
-			"typeName": "CharacterSebiestor",
-			"volume": 1
-		},
-		{
-			"typeID": 1380,
-			"typeName": "CharacterBrutor",
-			"volume": 1
-		},
-		{
-			"typeID": 1381,
-			"typeName": "CharacterStatic",
-			"volume": 1
-		},
-		{
-			"typeID": 1382,
-			"typeName": "CharacterModifier",
-			"volume": 1
-		},
-		{
-			"typeID": 1383,
-			"typeName": "CharacterAchura",
-			"volume": 1
-		},
-		{
-			"typeID": 1384,
-			"typeName": "CharacterJinMei",
-			"volume": 1
-		},
-		{
-			"typeID": 1385,
-			"typeName": "CharacterKhanid",
-			"volume": 1
-		},
-		{
-			"typeID": 1386,
-			"typeName": "CharacterVherokior",
-			"volume": 1
-		},
-		{
 			"typeID": 1401,
 			"typeName": "Basic Inertia Stabilizers",
 			"volume": 5
@@ -3232,11 +2721,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1406,
-			"typeName": "Inertia Stabilizers II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1419,
 			"typeName": "Basic Shield Power Relay",
 			"volume": 5
@@ -3247,19 +2731,9 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1423,
-			"typeName": "Shield Power Relay II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1436,
 			"typeName": "Auto Targeting System II",
 			"volume": 5
-		},
-		{
-			"typeID": 1437,
-			"typeName": "Auto Targeting System II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 1445,
@@ -3275,26 +2749,6 @@
 			"typeID": 1447,
 			"typeName": "Capacitor Power Relay II",
 			"volume": 5
-		},
-		{
-			"typeID": 1448,
-			"typeName": "Capacitor Power Relay II Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1529,
-			"typeName": "Caldari Administrative Station",
-			"volume": 1
-		},
-		{
-			"typeID": 1530,
-			"typeName": "Caldari Research Station",
-			"volume": 1
-		},
-		{
-			"typeID": 1531,
-			"typeName": "Caldari Trading Station",
-			"volume": 1
 		},
 		{
 			"typeID": 1537,
@@ -3317,11 +2771,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1542,
-			"typeName": "Power Diagnostic System II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1547,
 			"typeName": "Small Proton Smartbomb I",
 			"volume": 12.5
@@ -3335,11 +2784,6 @@
 			"typeID": 1549,
 			"typeName": "Small Proton Smartbomb II",
 			"volume": 5
-		},
-		{
-			"typeID": 1550,
-			"typeName": "Small Proton Smartbomb II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 1551,
@@ -3357,11 +2801,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1554,
-			"typeName": "Small Graviton Smartbomb II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1557,
 			"typeName": "Small Plasma Smartbomb I",
 			"volume": 12.5
@@ -3377,11 +2816,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1560,
-			"typeName": "Small Plasma Smartbomb II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1563,
 			"typeName": "Small EMP Smartbomb I",
 			"volume": 12.5
@@ -3395,361 +2829,6 @@
 			"typeID": 1565,
 			"typeName": "Small EMP Smartbomb II",
 			"volume": 5
-		},
-		{
-			"typeID": 1566,
-			"typeName": "Small EMP Smartbomb II Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 1601,
-			"typeName": "Amarr Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1602,
-			"typeName": "Ni-Kunni Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1603,
-			"typeName": "Civire Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1604,
-			"typeName": "Deteis Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1605,
-			"typeName": "Gallente Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1606,
-			"typeName": "Intaki Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1607,
-			"typeName": "Sebiestor Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1608,
-			"typeName": "Brutor Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1611,
-			"typeName": "Computer Empathy Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1612,
-			"typeName": "Ordered Mind Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1613,
-			"typeName": "Standard DNA Pattern Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1614,
-			"typeName": "Killer Instinct Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1615,
-			"typeName": "Deft Hands Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1616,
-			"typeName": "Structural Understanding Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1617,
-			"typeName": "Creative Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1618,
-			"typeName": "Glib Tongue Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1619,
-			"typeName": "August Demeanor Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1620,
-			"typeName": "Superior Motion Sense Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1621,
-			"typeName": "High-G Tolerance Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1622,
-			"typeName": "Vector Reckoning Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1623,
-			"typeName": "Stratum Form Feel Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1624,
-			"typeName": "Doctrine Ingrained Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1625,
-			"typeName": "Three Dimensional Thinking Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1626,
-			"typeName": "Swift Neural Grafting Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1627,
-			"typeName": "Booster Immunity Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1628,
-			"typeName": "Algiophobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1629,
-			"typeName": "Barophobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1630,
-			"typeName": "Cenophobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1631,
-			"typeName": "Claustrophobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1632,
-			"typeName": "Monophobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1633,
-			"typeName": "Mysophobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1634,
-			"typeName": "Taphephobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1635,
-			"typeName": "Xenophobia Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1636,
-			"typeName": "Mechanical Inaptitude Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1639,
-			"typeName": "Weak Double-helix Bond Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1640,
-			"typeName": "Short Attention Span Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1641,
-			"typeName": "Wasteful Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1642,
-			"typeName": "Trigger-happy Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1643,
-			"typeName": "Epileptic Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1644,
-			"typeName": "Strong Immunity System Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1650,
-			"typeName": "Amarr Military Academy Pilot Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1651,
-			"typeName": "Amarr Military Academy Gunner Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1652,
-			"typeName": "Amarr Technical School Engineering Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1653,
-			"typeName": "Amarr Technical School Electronics Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1654,
-			"typeName": "Amarr Business School Commerce Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1655,
-			"typeName": "Amarr Business School Industry Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1657,
-			"typeName": "Caldari Military Academy Pilot Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1658,
-			"typeName": "Caldari Military Academy Gunner Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1659,
-			"typeName": "Caldari Technical School Engineering Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1660,
-			"typeName": "Caldari Technical School Electronics Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1661,
-			"typeName": "Caldari Business School Commerce Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1662,
-			"typeName": "Caldari Business School Industry Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1663,
-			"typeName": "Gallente Military Academy Pilot Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1664,
-			"typeName": "Gallente Military Academy Gunner Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1665,
-			"typeName": "Gallente Technical School Engineering Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1666,
-			"typeName": "Gallente Technical School Electronics Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1667,
-			"typeName": "Gallente Business School Commerce Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1668,
-			"typeName": "Gallente Business School Industry Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1669,
-			"typeName": "Minmatar Military Academy Pilot Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1670,
-			"typeName": "Minmatar Military Academy Gunner Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1671,
-			"typeName": "Minmatar Technical School Engineering Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1672,
-			"typeName": "Minmatar Technical School Electronic Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1673,
-			"typeName": "Minmatar Business School Commerce Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1674,
-			"typeName": "Minmatar Business School Industry Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1675,
-			"typeName": "Bounty Hunter Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1676,
-			"typeName": "Scientist Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1677,
-			"typeName": "Industrialist Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1678,
-			"typeName": "Corporate Magnate Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1679,
-			"typeName": "Covert-op Bonus",
-			"volume": 0
-		},
-		{
-			"typeID": 1680,
-			"typeName": "Navy Captain Bonus",
-			"volume": 0
 		},
 		{
 			"typeID": 1798,
@@ -3897,11 +2976,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 1856,
-			"typeName": "Ship Scanner II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1875,
 			"typeName": "Rapid Light Missile Launcher I",
 			"volume": 10
@@ -3917,94 +2991,9 @@
 			"volume": 10
 		},
 		{
-			"typeID": 1878,
-			"typeName": "Rapid Light Missile Launcher II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 1893,
 			"typeName": "Basic Heat Sink",
 			"volume": 5
-		},
-		{
-			"typeID": 1896,
-			"typeName": "Concord Police Frigate",
-			"volume": 20400
-		},
-		{
-			"typeID": 1898,
-			"typeName": "Concord SWAT Frigate",
-			"volume": 20400
-		},
-		{
-			"typeID": 1900,
-			"typeName": "Concord Army Frigate",
-			"volume": 20400
-		},
-		{
-			"typeID": 1902,
-			"typeName": "Concord Special Ops Frigate",
-			"volume": 20400
-		},
-		{
-			"typeID": 1904,
-			"typeName": "Concord Police Cruiser",
-			"volume": 101000
-		},
-		{
-			"typeID": 1912,
-			"typeName": "Concord Police Battleship",
-			"volume": 486000
-		},
-		{
-			"typeID": 1914,
-			"typeName": "Concord Special Ops Battleship",
-			"volume": 486000
-		},
-		{
-			"typeID": 1916,
-			"typeName": "Concord SWAT Battleship",
-			"volume": 486000
-		},
-		{
-			"typeID": 1918,
-			"typeName": "Concord Army Battleship",
-			"volume": 486000
-		},
-		{
-			"typeID": 1926,
-			"typeName": "Amarr Station Hub",
-			"volume": 0
-		},
-		{
-			"typeID": 1927,
-			"typeName": "Amarr Station Military",
-			"volume": 0
-		},
-		{
-			"typeID": 1928,
-			"typeName": "Amarr Industrial Station",
-			"volume": 0
-		},
-		{
-			"typeID": 1929,
-			"typeName": "Amarr Standard Station",
-			"volume": 0
-		},
-		{
-			"typeID": 1930,
-			"typeName": "Amarr Mining Station",
-			"volume": 0
-		},
-		{
-			"typeID": 1931,
-			"typeName": "Amarr Research Station",
-			"volume": 0
-		},
-		{
-			"typeID": 1932,
-			"typeName": "Amarr Trade Post",
-			"volume": 0
 		},
 		{
 			"typeID": 1944,
@@ -4197,46 +3186,6 @@
 			"volume": 200000
 		},
 		{
-			"typeID": 2010,
-			"typeName": "Rebel Leader",
-			"volume": 21120
-		},
-		{
-			"typeID": 2011,
-			"typeName": "Prison Facility",
-			"volume": 100000000
-		},
-		{
-			"typeID": 2012,
-			"typeName": "Terrorist Leader",
-			"volume": 16450
-		},
-		{
-			"typeID": 2013,
-			"typeName": "Hostages",
-			"volume": 1
-		},
-		{
-			"typeID": 2014,
-			"typeName": "Planet (Oceanic)",
-			"volume": 1
-		},
-		{
-			"typeID": 2015,
-			"typeName": "Planet (Lava)",
-			"volume": 1
-		},
-		{
-			"typeID": 2016,
-			"typeName": "Planet (Barren)",
-			"volume": 1
-		},
-		{
-			"typeID": 2017,
-			"typeName": "Planet (Storm)",
-			"volume": 1
-		},
-		{
 			"typeID": 2018,
 			"typeName": "Medium Capacitor Battery I",
 			"volume": 10
@@ -4257,24 +3206,9 @@
 			"volume": 0.01
 		},
 		{
-			"typeID": 2022,
-			"typeName": "X-Large Capacitor Battery I",
-			"volume": 20
-		},
-		{
-			"typeID": 2023,
-			"typeName": "X-Large Capacitor Battery I Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 2024,
 			"typeName": "Medium Capacitor Booster II",
 			"volume": 10
-		},
-		{
-			"typeID": 2025,
-			"typeName": "Medium Capacitor Booster II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 2026,
@@ -4312,11 +3246,6 @@
 			"volume": 5
 		},
 		{
-			"typeID": 2033,
-			"typeName": "Cap Recharger II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 2034,
 			"typeName": "Entrapment Array 2",
 			"volume": 10000
@@ -4340,11 +3269,6 @@
 			"typeID": 2038,
 			"typeName": "Cargo Scanner II",
 			"volume": 5
-		},
-		{
-			"typeID": 2039,
-			"typeName": "Cargo Scanner II Blueprint",
-			"volume": 0.01
 		},
 		{
 			"typeID": 2040,
@@ -4372,11 +3296,6 @@
 			"volume": 500000
 		},
 		{
-			"typeID": 2045,
-			"typeName": "SARO Frigate",
-			"volume": 16500
-		},
-		{
 			"typeID": 2046,
 			"typeName": "Damage Control I",
 			"volume": 5
@@ -4392,19 +3311,9 @@
 			"volume": 5
 		},
 		{
-			"typeID": 2049,
-			"typeName": "Damage Control II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 2050,
 			"typeName": "Gistum C-Type Adaptive Invulnerability Field",
 			"volume": 5
-		},
-		{
-			"typeID": 2052,
-			"typeName": "Mercenary Trainee",
-			"volume": 19700
 		},
 		{
 			"typeID": 2053,
@@ -4457,59 +3366,9 @@
 			"volume": 500000
 		},
 		{
-			"typeID": 2063,
-			"typeName": "Planet (Plasma)",
-			"volume": 1
-		},
-		{
-			"typeID": 2064,
-			"typeName": "EVE Gate",
-			"volume": 1
-		},
-		{
-			"typeID": 2065,
-			"typeName": "Patrikia Noirild's Reaper",
-			"volume": 0
-		},
-		{
-			"typeID": 2066,
-			"typeName": "Karsten Lundham's Typhoon",
-			"volume": 0
-		},
-		{
-			"typeID": 2071,
-			"typeName": "Station (Interbus)",
-			"volume": 1
-		},
-		{
-			"typeID": 2072,
-			"typeName": "Anire Scarlet",
-			"volume": 118000
-		},
-		{
 			"typeID": 2073,
 			"typeName": "Microorganisms",
 			"volume": 0.01
-		},
-		{
-			"typeID": 2074,
-			"typeName": "Zazzmatazz",
-			"volume": 0.1
-		},
-		{
-			"typeID": 2075,
-			"typeName": "Consolidated Holdings Commander Access Key",
-			"volume": 0.01
-		},
-		{
-			"typeID": 2076,
-			"typeName": "Gate Key",
-			"volume": 0.1
-		},
-		{
-			"typeID": 2077,
-			"typeName": "Amarr Frigate Container",
-			"volume": 0
 		},
 		{
 			"typeID": 2078,
@@ -4522,46 +3381,6 @@
 			"volume": 1
 		},
 		{
-			"typeID": 2083,
-			"typeName": "Prototype Iris Probe Launcher",
-			"volume": 5
-		},
-		{
-			"typeID": 2093,
-			"typeName": "Kidnapped Citizens",
-			"volume": 1
-		},
-		{
-			"typeID": 2096,
-			"typeName": "Caldari Supercarrier Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2097,
-			"typeName": "Amarr Supercarrier Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2098,
-			"typeName": "Phenod's Broke-Ass Destroyer",
-			"volume": 26500
-		},
-		{
-			"typeID": 2100,
-			"typeName": "Phenod's DNA",
-			"volume": 0.1
-		},
-		{
-			"typeID": 2101,
-			"typeName": "Gallente Supercarrier Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2102,
-			"typeName": "Minmatar Supercarrier Wreckage",
-			"volume": 0
-		},
-		{
 			"typeID": 2103,
 			"typeName": "Remote Tracking Computer I",
 			"volume": 25
@@ -4570,21 +3389,6 @@
 			"typeID": 2104,
 			"typeName": "Remote Tracking Computer II",
 			"volume": 5
-		},
-		{
-			"typeID": 2105,
-			"typeName": "Amarr Carrier Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2106,
-			"typeName": "Caldari Carrier Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2107,
-			"typeName": "Gallente Carrier Wreckage",
-			"volume": 0
 		},
 		{
 			"typeID": 2108,
@@ -4597,254 +3401,9 @@
 			"volume": 5
 		},
 		{
-			"typeID": 2110,
-			"typeName": "Minmatar Carrier Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2111,
-			"typeName": "Amarr Freighter Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2112,
-			"typeName": "Caldari Freighter Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2113,
-			"typeName": "Gallente Freighter Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2114,
-			"typeName": "Minmatar Freighter Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2115,
-			"typeName": "Amarr Dreadnought Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2116,
-			"typeName": "Caldari Dreadnought Wreckage",
-			"volume": 0
-		},
-		{
 			"typeID": 2117,
 			"typeName": "ECM Burst II",
 			"volume": 5
-		},
-		{
-			"typeID": 2118,
-			"typeName": "ECM Burst II Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 2119,
-			"typeName": "Gallente Dreadnought Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2120,
-			"typeName": "Minmatar Dreadnought Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2121,
-			"typeName": "Amarr Titan Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2122,
-			"typeName": "Caldari Titan Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2123,
-			"typeName": "Gallente Titan Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2124,
-			"typeName": "Minmatar Titan Wreckage",
-			"volume": 0
-		},
-		{
-			"typeID": 2126,
-			"typeName": "Anakism",
-			"volume": 22500
-		},
-		{
-			"typeID": 2127,
-			"typeName": "Amarr Diplomat Quarters",
-			"volume": 100000000
-		},
-		{
-			"typeID": 2128,
-			"typeName": "Locced's Destroyer",
-			"volume": 26500
-		},
-		{
-			"typeID": 2129,
-			"typeName": "Limited Barren Command Center",
-			"volume": 100
-		},
-		{
-			"typeID": 2130,
-			"typeName": "Standard Barren Command Center",
-			"volume": 200
-		},
-		{
-			"typeID": 2131,
-			"typeName": "Improved Barren Command Center",
-			"volume": 400
-		},
-		{
-			"typeID": 2132,
-			"typeName": "Advanced Barren Command Center",
-			"volume": 800
-		},
-		{
-			"typeID": 2133,
-			"typeName": "Elite Barren Command Center",
-			"volume": 1600
-		},
-		{
-			"typeID": 2134,
-			"typeName": "Limited Gas Command Center",
-			"volume": 100
-		},
-		{
-			"typeID": 2135,
-			"typeName": "Standard Gas Command Center",
-			"volume": 200
-		},
-		{
-			"typeID": 2136,
-			"typeName": "Improved Gas Command Center",
-			"volume": 400
-		},
-		{
-			"typeID": 2137,
-			"typeName": "Advanced Gas Command Center",
-			"volume": 800
-		},
-		{
-			"typeID": 2138,
-			"typeName": "Elite Gas Command Center",
-			"volume": 1600
-		},
-		{
-			"typeID": 2139,
-			"typeName": "Limited Ice Command Center",
-			"volume": 100
-		},
-		{
-			"typeID": 2140,
-			"typeName": "Standard Ice Command Center",
-			"volume": 200
-		},
-		{
-			"typeID": 2141,
-			"typeName": "Improved Ice Command Center",
-			"volume": 400
-		},
-		{
-			"typeID": 2142,
-			"typeName": "Advanced Ice Command Center",
-			"volume": 800
-		},
-		{
-			"typeID": 2143,
-			"typeName": "Elite Ice Command Center",
-			"volume": 1600
-		},
-		{
-			"typeID": 2144,
-			"typeName": "Limited Lava Command Center",
-			"volume": 100
-		},
-		{
-			"typeID": 2145,
-			"typeName": "Standard Lava Command Center",
-			"volume": 200
-		},
-		{
-			"typeID": 2146,
-			"typeName": "Improved Lava Command Center",
-			"volume": 400
-		},
-		{
-			"typeID": 2147,
-			"typeName": "Advanced Lava Command Center",
-			"volume": 800
-		},
-		{
-			"typeID": 2148,
-			"typeName": "Elite Lava Command Center",
-			"volume": 1600
-		},
-		{
-			"typeID": 2149,
-			"typeName": "Limited Oceanic Command Center",
-			"volume": 100
-		},
-		{
-			"typeID": 2150,
-			"typeName": "Standard Oceanic Command Center",
-			"volume": 200
-		},
-		{
-			"typeID": 2151,
-			"typeName": "Improved Oceanic Command Center",
-			"volume": 400
-		},
-		{
-			"typeID": 2152,
-			"typeName": "Advanced Oceanic Command Center",
-			"volume": 800
-		},
-		{
-			"typeID": 2153,
-			"typeName": "Elite Oceanic Command Center",
-			"volume": 1600
-		},
-		{
-			"typeID": 2154,
-			"typeName": "Limited Plasma Command Center",
-			"volume": 100
-		},
-		{
-			"typeID": 2155,
-			"typeName": "Standard Plasma Command Center",
-			"volume": 200
-		},
-		{
-			"typeID": 2156,
-			"typeName": "Improved Plasma Command Center",
-			"volume": 400
-		},
-		{
-			"typeID": 2157,
-			"typeName": "Advanced Plasma Command Center",
-			"volume": 800
-		},
-		{
-			"typeID": 2158,
-			"typeName": "Elite Plasma Command Center",
-			"volume": 1600
-		},
-		{
-			"typeID": 2159,
-			"typeName": "Limited Storm Command Center",
-			"volume": 100
-		},
-		{
-			"typeID": 2160,
-			"typeName": "Standard Storm Command Center",
-			"volume": 200
 		},
 		{
 			"typeID": 2161,
@@ -4855,16 +3414,6 @@
 			"typeID": 2162,
 			"typeName": "Crucifier Blueprint",
 			"volume": 0.01
-		},
-		{
-			"typeID": 2163,
-			"typeName": "CONCORD Collection Vessel",
-			"volume": 0
-		},
-		{
-			"typeID": 2165,
-			"typeName": "Haunter Cruise Missile",
-			"volume": 0.05
 		},
 		{
 			"typeID": 2173,
@@ -4882,29 +3431,14 @@
 			"volume": 10
 		},
 		{
-			"typeID": 2176,
-			"typeName": "Infiltrator II Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 2178,
 			"typeName": "Guristas Nova Citadel Cruise Missile",
 			"volume": 0.3
 		},
 		{
-			"typeID": 2179,
-			"typeName": "Sansha Wrath Cruise Missile Blueprint",
-			"volume": 0.01
-		},
-		{
 			"typeID": 2180,
 			"typeName": "Guristas Scourge Citadel Cruise Missile",
 			"volume": 0.3
-		},
-		{
-			"typeID": 2181,
-			"typeName": "Minmatar Diplomat Quarters",
-			"volume": 100000000
 		},
 		{
 			"typeID": 2182,
@@ -4927,39 +3461,9 @@
 			"volume": 10
 		},
 		{
-			"typeID": 2186,
-			"typeName": "Hammerhead II Blueprint",
-			"volume": 0.01
-		},
-		{
-			"typeID": 2187,
-			"typeName": "Orca Container",
-			"volume": 0
-		},
-		{
 			"typeID": 2188,
 			"typeName": "Guristas Mjolnir Citadel Cruise Missile",
 			"volume": 0.3
-		},
-		{
-			"typeID": 2189,
-			"typeName": "Drone Infested Dominix",
-			"volume": 1010000
-		},
-		{
-			"typeID": 2190,
-			"typeName": "Renyn Meten",
-			"volume": 20000
-		},
-		{
-			"typeID": 2191,
-			"typeName": "Antem Neo",
-			"volume": 100100
-		},
-		{
-			"typeID": 2192,
-			"typeName": "The Kundalini Manifest",
-			"volume": 62000000
 		},
 		{
 			"typeID": 2193,
@@ -4977,29 +3481,1527 @@
 			"volume": 25
 		},
 		{
-			"typeID": 2196,
-			"typeName": "Praetor II Blueprint",
+			"typeID": 2203,
+			"typeName": "Acolyte I",
+			"volume": 5
+		},
+		{
+			"typeID": 2204,
+			"typeName": "Acolyte I Blueprint",
 			"volume": 0.01
 		},
 		{
-			"typeID": 2197,
-			"typeName": "Environmentally-friendly Mining Equipment",
-			"volume": 32
+			"typeID": 2205,
+			"typeName": "Acolyte II",
+			"volume": 5
 		},
 		{
-			"typeID": 2198,
-			"typeName": "Crate of Environmentally-friendly Mining Equipment",
-			"volume": 450
+			"typeID": 2254,
+			"typeName": "Temperate Command Center",
+			"volume": 1000
 		},
 		{
-			"typeID": 2199,
-			"typeName": "Prototype Body Armor Fabric ",
+			"typeID": 2258,
+			"typeName": "ECCM - Omni II",
+			"volume": 5
+		},
+		{
+			"typeID": 2259,
+			"typeName": "ECCM - Gravimetric II",
+			"volume": 5
+		},
+		{
+			"typeID": 2260,
+			"typeName": "ECCM - Ladar II",
+			"volume": 5
+		},
+		{
+			"typeID": 2261,
+			"typeName": "ECCM - Magnetometric II",
+			"volume": 5
+		},
+		{
+			"typeID": 2262,
+			"typeName": "ECCM - Radar II",
+			"volume": 5
+		},
+		{
+			"typeID": 2267,
+			"typeName": "Base Metals",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2268,
+			"typeName": "Aqueous Liquids",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2270,
+			"typeName": "Noble Metals",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2272,
+			"typeName": "Heavy Metals",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2281,
+			"typeName": "Adaptive Invulnerability Field II",
+			"volume": 5
+		},
+		{
+			"typeID": 2286,
+			"typeName": "Planktic Colonies",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2287,
+			"typeName": "Complex Organisms",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2288,
+			"typeName": "Carbon Compounds",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2289,
+			"typeName": "Explosive Deflection Field I",
 			"volume": 20
 		},
 		{
-			"typeID": 2200,
-			"typeName": "Crate of Prototype Body Armor Fabric ",
-			"volume": 2000
+			"typeID": 2290,
+			"typeName": "Explosive Deflection Field I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2291,
+			"typeName": "Kinetic Deflection Field I",
+			"volume": 20
+		},
+		{
+			"typeID": 2292,
+			"typeName": "Kinetic Deflection Field I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2293,
+			"typeName": "EM Ward Field I",
+			"volume": 20
+		},
+		{
+			"typeID": 2294,
+			"typeName": "EM Ward Field I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2295,
+			"typeName": "Thermic Dissipation Field I",
+			"volume": 20
+		},
+		{
+			"typeID": 2296,
+			"typeName": "Thermic Dissipation Field I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2297,
+			"typeName": "Explosive Deflection Field II",
+			"volume": 5
+		},
+		{
+			"typeID": 2299,
+			"typeName": "Kinetic Deflection Field II",
+			"volume": 5
+		},
+		{
+			"typeID": 2301,
+			"typeName": "EM Ward Field II",
+			"volume": 5
+		},
+		{
+			"typeID": 2303,
+			"typeName": "Thermic Dissipation Field II",
+			"volume": 5
+		},
+		{
+			"typeID": 2305,
+			"typeName": "Autotrophs",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2306,
+			"typeName": "Non-CS Crystals",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2307,
+			"typeName": "Felsic Magma",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2308,
+			"typeName": "Suspended Plasma",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2309,
+			"typeName": "Ionic Solutions",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2310,
+			"typeName": "Noble Gas",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2311,
+			"typeName": "Reactive Gas",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2312,
+			"typeName": "Supertensile Plastics",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2317,
+			"typeName": "Oxides",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2319,
+			"typeName": "Test Cultures",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2321,
+			"typeName": "Polyaramids",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2327,
+			"typeName": "Microfiber Shielding",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2328,
+			"typeName": "Water-Cooled CPU",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2329,
+			"typeName": "Biocells",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2331,
+			"typeName": "Shield Power Relay I",
+			"volume": 5
+		},
+		{
+			"typeID": 2332,
+			"typeName": "Shield Power Relay I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2333,
+			"typeName": "Survey Scanner II",
+			"volume": 5
+		},
+		{
+			"typeID": 2341,
+			"typeName": "Passive Targeter II",
+			"volume": 5
+		},
+		{
+			"typeID": 2344,
+			"typeName": "Condensates",
+			"volume": 6
+		},
+		{
+			"typeID": 2345,
+			"typeName": "Camera Drones",
+			"volume": 6
+		},
+		{
+			"typeID": 2346,
+			"typeName": "Synthetic Synapses",
+			"volume": 6
+		},
+		{
+			"typeID": 2348,
+			"typeName": "Gel-Matrix Biopaste",
+			"volume": 6
+		},
+		{
+			"typeID": 2349,
+			"typeName": "Supercomputers",
+			"volume": 6
+		},
+		{
+			"typeID": 2351,
+			"typeName": "Smartfab Units",
+			"volume": 6
+		},
+		{
+			"typeID": 2352,
+			"typeName": "Nuclear Reactors",
+			"volume": 6
+		},
+		{
+			"typeID": 2354,
+			"typeName": "Neocoms",
+			"volume": 6
+		},
+		{
+			"typeID": 2355,
+			"typeName": "Small Hull Repairer II",
+			"volume": 5
+		},
+		{
+			"typeID": 2358,
+			"typeName": "Biotech Research Reports",
+			"volume": 6
+		},
+		{
+			"typeID": 2360,
+			"typeName": "Industrial Explosives",
+			"volume": 6
+		},
+		{
+			"typeID": 2361,
+			"typeName": "Hermetic Membranes",
+			"volume": 6
+		},
+		{
+			"typeID": 2363,
+			"typeName": "Heat Sink I",
+			"volume": 5
+		},
+		{
+			"typeID": 2364,
+			"typeName": "Heat Sink II",
+			"volume": 5
+		},
+		{
+			"typeID": 2366,
+			"typeName": "Hazmat Detection Systems",
+			"volume": 6
+		},
+		{
+			"typeID": 2367,
+			"typeName": "Cryoprotectant Solution",
+			"volume": 6
+		},
+		{
+			"typeID": 2368,
+			"typeName": "Broken Organic Mortar Applicators",
+			"volume": 100
+		},
+		{
+			"typeID": 2369,
+			"typeName": "Broken Sterile Conduits",
+			"volume": 100
+		},
+		{
+			"typeID": 2371,
+			"typeName": "Broken Nano-Factory",
+			"volume": 100
+		},
+		{
+			"typeID": 2373,
+			"typeName": "Broken Self-Harmonizing Power Core",
+			"volume": 100
+		},
+		{
+			"typeID": 2374,
+			"typeName": "Broken Recursive Computing Module",
+			"volume": 100
+		},
+		{
+			"typeID": 2375,
+			"typeName": "Broken Broadcast Node",
+			"volume": 100
+		},
+		{
+			"typeID": 2376,
+			"typeName": "Broken Integrity Response Drones",
+			"volume": 100
+		},
+		{
+			"typeID": 2377,
+			"typeName": "Broken Wetware Mainframe",
+			"volume": 100
+		},
+		{
+			"typeID": 2389,
+			"typeName": "Plasmoids",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2390,
+			"typeName": "Electrolytes",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2392,
+			"typeName": "Oxidizing Compound",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2393,
+			"typeName": "Bacteria",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2395,
+			"typeName": "Proteins",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2396,
+			"typeName": "Biofuels",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2397,
+			"typeName": "Industrial Fibers",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2398,
+			"typeName": "Reactive Metals",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2399,
+			"typeName": "Precious Metals",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2400,
+			"typeName": "Toxic Metals",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2401,
+			"typeName": "Chiral Structures",
+			"volume": 0.38
+		},
+		{
+			"typeID": 2403,
+			"typeName": "Advanced Planetology",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2404,
+			"typeName": "Light Missile Launcher II",
+			"volume": 5
+		},
+		{
+			"typeID": 2406,
+			"typeName": "Planetology",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2410,
+			"typeName": "Heavy Missile Launcher II",
+			"volume": 10
+		},
+		{
+			"typeID": 2420,
+			"typeName": "Torpedo Launcher II",
+			"volume": 20
+		},
+		{
+			"typeID": 2436,
+			"typeName": "Wasp II",
+			"volume": 25
+		},
+		{
+			"typeID": 2444,
+			"typeName": "Ogre I",
+			"volume": 25
+		},
+		{
+			"typeID": 2445,
+			"typeName": "Ogre I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2446,
+			"typeName": "Ogre II",
+			"volume": 25
+		},
+		{
+			"typeID": 2454,
+			"typeName": "Hobgoblin I",
+			"volume": 5
+		},
+		{
+			"typeID": 2455,
+			"typeName": "Hobgoblin I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2456,
+			"typeName": "Hobgoblin II",
+			"volume": 5
+		},
+		{
+			"typeID": 2463,
+			"typeName": "Nanites",
+			"volume": 1.5
+		},
+		{
+			"typeID": 2464,
+			"typeName": "Hornet I",
+			"volume": 5
+		},
+		{
+			"typeID": 2465,
+			"typeName": "Hornet I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2466,
+			"typeName": "Hornet II",
+			"volume": 5
+		},
+		{
+			"typeID": 2476,
+			"typeName": "Berserker I",
+			"volume": 25
+		},
+		{
+			"typeID": 2477,
+			"typeName": "Berserker I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2478,
+			"typeName": "Berserker II",
+			"volume": 25
+		},
+		{
+			"typeID": 2486,
+			"typeName": "Warrior I",
+			"volume": 5
+		},
+		{
+			"typeID": 2487,
+			"typeName": "Warrior I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2488,
+			"typeName": "Warrior II",
+			"volume": 5
+		},
+		{
+			"typeID": 2495,
+			"typeName": "Interplanetary Consolidation",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2505,
+			"typeName": "Command Center Upgrades",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2506,
+			"typeName": "Mjolnir Torpedo",
+			"volume": 0.1
+		},
+		{
+			"typeID": 2507,
+			"typeName": "Mjolnir Torpedo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2508,
+			"typeName": "Nova Torpedo",
+			"volume": 0.1
+		},
+		{
+			"typeID": 2509,
+			"typeName": "Nova Torpedo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2510,
+			"typeName": "Inferno Torpedo",
+			"volume": 0.1
+		},
+		{
+			"typeID": 2511,
+			"typeName": "Inferno Torpedo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2512,
+			"typeName": "Mjolnir Rocket",
+			"volume": 0.005
+		},
+		{
+			"typeID": 2513,
+			"typeName": "Mjolnir Rocket Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2514,
+			"typeName": "Inferno Rocket",
+			"volume": 0.005
+		},
+		{
+			"typeID": 2515,
+			"typeName": "Inferno Rocket Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2516,
+			"typeName": "Nova Rocket",
+			"volume": 0.005
+		},
+		{
+			"typeID": 2517,
+			"typeName": "Nova Rocket Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2524,
+			"typeName": "Barren Command Center",
+			"volume": 1000
+		},
+		{
+			"typeID": 2525,
+			"typeName": "Oceanic Command Center",
+			"volume": 1000
+		},
+		{
+			"typeID": 2529,
+			"typeName": "Explosive Deflection Amplifier I",
+			"volume": 5
+		},
+		{
+			"typeID": 2530,
+			"typeName": "Explosive Deflection Amplifier I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2531,
+			"typeName": "Explosive Deflection Amplifier II",
+			"volume": 5
+		},
+		{
+			"typeID": 2533,
+			"typeName": "Ice Command Center",
+			"volume": 1000
+		},
+		{
+			"typeID": 2534,
+			"typeName": "Gas Command Center",
+			"volume": 1000
+		},
+		{
+			"typeID": 2537,
+			"typeName": "Thermic Dissipation Amplifier I",
+			"volume": 5
+		},
+		{
+			"typeID": 2538,
+			"typeName": "Thermic Dissipation Amplifier I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2539,
+			"typeName": "Thermic Dissipation Amplifier II",
+			"volume": 5
+		},
+		{
+			"typeID": 2545,
+			"typeName": "Kinetic Deflection Amplifier I",
+			"volume": 5
+		},
+		{
+			"typeID": 2546,
+			"typeName": "Kinetic Deflection Amplifier I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2547,
+			"typeName": "Kinetic Deflection Amplifier II",
+			"volume": 5
+		},
+		{
+			"typeID": 2549,
+			"typeName": "Lava Command Center",
+			"volume": 1000
+		},
+		{
+			"typeID": 2550,
+			"typeName": "Storm Command Center",
+			"volume": 1000
+		},
+		{
+			"typeID": 2551,
+			"typeName": "Plasma Command Center",
+			"volume": 1000
+		},
+		{
+			"typeID": 2553,
+			"typeName": "EM Ward Amplifier II",
+			"volume": 5
+		},
+		{
+			"typeID": 2559,
+			"typeName": "ECM - Phase Inverter II",
+			"volume": 5
+		},
+		{
+			"typeID": 2563,
+			"typeName": "ECM - Ion Field Projector II",
+			"volume": 5
+		},
+		{
+			"typeID": 2567,
+			"typeName": "ECM - Multispectral Jammer II",
+			"volume": 5
+		},
+		{
+			"typeID": 2571,
+			"typeName": "ECM - Spatial Destabilizer II",
+			"volume": 5
+		},
+		{
+			"typeID": 2575,
+			"typeName": "ECM - White Noise Generator II",
+			"volume": 5
+		},
+		{
+			"typeID": 2579,
+			"typeName": "Gravimetric Backup Array I",
+			"volume": 5
+		},
+		{
+			"typeID": 2580,
+			"typeName": "Gravimetric Backup Array II",
+			"volume": 5
+		},
+		{
+			"typeID": 2583,
+			"typeName": "LADAR Backup Array I",
+			"volume": 5
+		},
+		{
+			"typeID": 2584,
+			"typeName": "LADAR Backup Array II",
+			"volume": 5
+		},
+		{
+			"typeID": 2587,
+			"typeName": "Magnetometric Backup Array I",
+			"volume": 5
+		},
+		{
+			"typeID": 2588,
+			"typeName": "Magnetometric Backup Array II",
+			"volume": 5
+		},
+		{
+			"typeID": 2589,
+			"typeName": "Genolution Core Augmentation CA-2",
+			"volume": 1
+		},
+		{
+			"typeID": 2591,
+			"typeName": "Multi Sensor Backup Array I",
+			"volume": 20
+		},
+		{
+			"typeID": 2592,
+			"typeName": "Multi Sensor Backup Array II",
+			"volume": 20
+		},
+		{
+			"typeID": 2603,
+			"typeName": "Nanofiber Internal Structure I",
+			"volume": 5
+		},
+		{
+			"typeID": 2604,
+			"typeName": "Nanofiber Internal Structure I Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2605,
+			"typeName": "Nanofiber Internal Structure II",
+			"volume": 5
+		},
+		{
+			"typeID": 2613,
+			"typeName": "Mjolnir Fury Light Missile",
+			"volume": 0.015
+		},
+		{
+			"typeID": 2621,
+			"typeName": "Inferno Fury Cruise Missile",
+			"volume": 0.05
+		},
+		{
+			"typeID": 2629,
+			"typeName": "Scourge Fury Heavy Missile",
+			"volume": 0.03
+		},
+		{
+			"typeID": 2637,
+			"typeName": "Inferno Precision Cruise Missile",
+			"volume": 0.05
+		},
+		{
+			"typeID": 2647,
+			"typeName": "Inferno Precision Light Missile",
+			"volume": 0.015
+		},
+		{
+			"typeID": 2655,
+			"typeName": "Nova Precision Heavy Missile",
+			"volume": 0.03
+		},
+		{
+			"typeID": 2679,
+			"typeName": "Scourge Rage Heavy Assault Missile",
+			"volume": 0.015
+		},
+		{
+			"typeID": 2735,
+			"typeName": "Infrastructure Hub Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2736,
+			"typeName": "Warp Disruption Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2737,
+			"typeName": "Territorial Claim Unit Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2738,
+			"typeName": "Sovereignty Blockade Unit Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2739,
+			"typeName": "Nanite Repair Paste Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2740,
+			"typeName": "Warp Scrambling Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2741,
+			"typeName": "Stasis Webification Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2742,
+			"typeName": "Biochemical Silo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2743,
+			"typeName": "Catalyst Silo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2744,
+			"typeName": "Coupling Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2745,
+			"typeName": "General Storage Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2746,
+			"typeName": "Hazardous Chemical Silo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2747,
+			"typeName": "Hybrid Polymer Silo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2748,
+			"typeName": "Silo Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2749,
+			"typeName": "Advanced Large Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2750,
+			"typeName": "X-Large Ship Maintenance Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2751,
+			"typeName": "Advanced Medium Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2752,
+			"typeName": "Ship Maintenance Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2753,
+			"typeName": "Advanced Small Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2754,
+			"typeName": "Ammunition Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2755,
+			"typeName": "Ballistic Deflection Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2756,
+			"typeName": "Capital Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2757,
+			"typeName": "Explosion Dampening Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2758,
+			"typeName": "Component Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2759,
+			"typeName": "Heat Dissipation Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2760,
+			"typeName": "Drone Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2761,
+			"typeName": "Photon Scattering Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2762,
+			"typeName": "Drug Lab Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2763,
+			"typeName": "Sensor Dampening Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2764,
+			"typeName": "Equipment Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2765,
+			"typeName": "Intensive Refining Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2766,
+			"typeName": "Large Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2767,
+			"typeName": "Medium Intensive Refining Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2768,
+			"typeName": "Medium Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2769,
+			"typeName": "Refining Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2770,
+			"typeName": "Rapid Equipment Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2771,
+			"typeName": "Small Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2772,
+			"typeName": "Subsystem Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2773,
+			"typeName": "X-Large Ship Assembly Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2774,
+			"typeName": "Amarr Control Tower Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2775,
+			"typeName": "Amarr Control Tower Medium Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2776,
+			"typeName": "Amarr Control Tower Small Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2777,
+			"typeName": "Caldari Control Tower Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2778,
+			"typeName": "Caldari Control Tower Medium Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2779,
+			"typeName": "Caldari Control Tower Small Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2780,
+			"typeName": "Gallente Control Tower Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2781,
+			"typeName": "Gallente Control Tower Medium Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2782,
+			"typeName": "Gallente Control Tower Small Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2783,
+			"typeName": "Minmatar Control Tower Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2784,
+			"typeName": "Minmatar Control Tower Medium Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2785,
+			"typeName": "Minmatar Control Tower Small Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2786,
+			"typeName": "Moon Harvesting Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2787,
+			"typeName": "Corporate Hangar Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2788,
+			"typeName": "Cynosural Generator Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2789,
+			"typeName": "Cynosural System Jammer Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2790,
+			"typeName": "Biochemical Reactor Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2791,
+			"typeName": "Complex Reactor Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2792,
+			"typeName": "Ion Field Projection Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2793,
+			"typeName": "Medium Biochemical Reactor Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2794,
+			"typeName": "Phase Inversion Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2795,
+			"typeName": "Polymer Reactor Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2796,
+			"typeName": "Spatial Destabilization Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2797,
+			"typeName": "Simple Reactor Array Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2798,
+			"typeName": "White Noise Generation Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2799,
+			"typeName": "Energy Neutralizing Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2800,
+			"typeName": "Jump Bridge Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2801,
+			"typeName": "Nova Javelin Torpedo",
+			"volume": 0.1
+		},
+		{
+			"typeID": 2803,
+			"typeName": "Large Blaster Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2804,
+			"typeName": "Large Railgun Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2805,
+			"typeName": "Large Artillery Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2806,
+			"typeName": "Medium Blaster Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2807,
+			"typeName": "Large AutoCannon Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2808,
+			"typeName": "Medium Railgun Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2810,
+			"typeName": "Medium Artillery Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2811,
+			"typeName": "Inferno Rage Torpedo",
+			"volume": 0.1
+		},
+		{
+			"typeID": 2813,
+			"typeName": "Small Blaster Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2814,
+			"typeName": "Medium AutoCannon Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2815,
+			"typeName": "Small Railgun Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2816,
+			"typeName": "Small Artillery Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2817,
+			"typeName": "Mjolnir Rage Rocket",
+			"volume": 0.005
+		},
+		{
+			"typeID": 2819,
+			"typeName": "Small AutoCannon Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2820,
+			"typeName": "Experimental Laboratory Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2821,
+			"typeName": "Mobile Laboratory Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2822,
+			"typeName": "Citadel Torpedo Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2823,
+			"typeName": "Cruise Missile Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2824,
+			"typeName": "Torpedo Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2825,
+			"typeName": "Small Pulse Laser Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2826,
+			"typeName": "Small Beam Laser Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2827,
+			"typeName": "Medium Pulse Laser Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2828,
+			"typeName": "Medium Beam Laser Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2829,
+			"typeName": "Large Pulse Laser Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2830,
+			"typeName": "Large Beam Laser Battery Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2833,
+			"typeName": "1000 Aurum Token",
+			"volume": 0.01
+		},
+		{
+			"typeID": 2834,
+			"typeName": "Utu",
+			"volume": 29500
+		},
+		{
+			"typeID": 2836,
+			"typeName": "Adrestia",
+			"volume": 112000
+		},
+		{
+			"typeID": 2863,
+			"typeName": "Primae",
+			"volume": 270000
+		},
+		{
+			"typeID": 2865,
+			"typeName": "1200mm Artillery Cannon II",
+			"volume": 20
+		},
+		{
+			"typeID": 2867,
+			"typeName": "Broadcast Node",
+			"volume": 100
+		},
+		{
+			"typeID": 2868,
+			"typeName": "Integrity Response Drones",
+			"volume": 100
+		},
+		{
+			"typeID": 2869,
+			"typeName": "Nano-Factory",
+			"volume": 100
+		},
+		{
+			"typeID": 2870,
+			"typeName": "Organic Mortar Applicators",
+			"volume": 100
+		},
+		{
+			"typeID": 2871,
+			"typeName": "Recursive Computing Module",
+			"volume": 100
+		},
+		{
+			"typeID": 2872,
+			"typeName": "Self-Harmonizing Power Core",
+			"volume": 100
+		},
+		{
+			"typeID": 2873,
+			"typeName": "125mm Gatling AutoCannon II",
+			"volume": 5
+		},
+		{
+			"typeID": 2875,
+			"typeName": "Sterile Conduits",
+			"volume": 100
+		},
+		{
+			"typeID": 2876,
+			"typeName": "Wetware Mainframe",
+			"volume": 100
+		},
+		{
+			"typeID": 2881,
+			"typeName": "150mm Light AutoCannon II",
+			"volume": 5
+		},
+		{
+			"typeID": 2889,
+			"typeName": "200mm AutoCannon II",
+			"volume": 5
+		},
+		{
+			"typeID": 2897,
+			"typeName": "220mm Vulcan AutoCannon II",
+			"volume": 10
+		},
+		{
+			"typeID": 2905,
+			"typeName": "250mm Light Artillery Cannon II",
+			"volume": 5
+		},
+		{
+			"typeID": 2913,
+			"typeName": "425mm AutoCannon II",
+			"volume": 10
+		},
+		{
+			"typeID": 2921,
+			"typeName": "650mm Artillery Cannon II",
+			"volume": 10
+		},
+		{
+			"typeID": 2929,
+			"typeName": "800mm Repeating Cannon II",
+			"volume": 20
+		},
+		{
+			"typeID": 2937,
+			"typeName": "Dual 180mm AutoCannon II",
+			"volume": 10
+		},
+		{
+			"typeID": 2945,
+			"typeName": "Dual 425mm AutoCannon II",
+			"volume": 20
+		},
+		{
+			"typeID": 2948,
+			"typeName": "Shadow",
+			"volume": 10000
+		},
+		{
+			"typeID": 2953,
+			"typeName": "Dual 650mm Repeating Cannon II",
+			"volume": 20
+		},
+		{
+			"typeID": 2961,
+			"typeName": "1400mm Howitzer Artillery II",
+			"volume": 20
+		},
+		{
+			"typeID": 2969,
+			"typeName": "720mm Howitzer Artillery II",
+			"volume": 10
+		},
+		{
+			"typeID": 2977,
+			"typeName": "280mm Howitzer Artillery II",
+			"volume": 5
+		},
+		{
+			"typeID": 2985,
+			"typeName": "Dual Heavy Beam Laser II",
+			"volume": 20
+		},
+		{
+			"typeID": 2993,
+			"typeName": "Dual Light Beam Laser II",
+			"volume": 5
+		},
+		{
+			"typeID": 2998,
+			"typeName": "Noctis",
+			"volume": 270000
+		},
+		{
+			"typeID": 3001,
+			"typeName": "Dual Light Pulse Laser II",
+			"volume": 5
+		},
+		{
+			"typeID": 3009,
+			"typeName": "Focused Medium Beam Laser II",
+			"volume": 10
+		},
+		{
+			"typeID": 3017,
+			"typeName": "Gatling Pulse Laser II",
+			"volume": 5
+		},
+		{
+			"typeID": 3025,
+			"typeName": "Heavy Beam Laser II",
+			"volume": 10
+		},
+		{
+			"typeID": 3033,
+			"typeName": "Small Focused Beam Laser II",
+			"volume": 5
+		},
+		{
+			"typeID": 3039,
+			"typeName": "Noctis Blueprint",
+			"volume": 0.01
+		},
+		{
+			"typeID": 3041,
+			"typeName": "Small Focused Pulse Laser II",
+			"volume": 5
+		},
+		{
+			"typeID": 3049,
+			"typeName": "Mega Beam Laser II",
+			"volume": 20
+		},
+		{
+			"typeID": 3057,
+			"typeName": "Mega Pulse Laser II",
+			"volume": 20
+		},
+		{
+			"typeID": 3065,
+			"typeName": "Tachyon Beam Laser II",
+			"volume": 20
+		},
+		{
+			"typeID": 3074,
+			"typeName": "150mm Railgun II",
+			"volume": 5
+		},
+		{
+			"typeID": 3077,
+			"typeName": "Zainou 'Gnome' Shield Upgrades SU-602",
+			"volume": 1
+		},
+		{
+			"typeID": 3078,
+			"typeName": "Zainou 'Gnome' Shield Upgrades SU-604",
+			"volume": 1
+		},
+		{
+			"typeID": 3079,
+			"typeName": "Zainou 'Gnome' Shield Upgrades SU-606",
+			"volume": 1
+		},
+		{
+			"typeID": 3080,
+			"typeName": "Zainou 'Gnome' Shield Management SM-702",
+			"volume": 1
+		},
+		{
+			"typeID": 3081,
+			"typeName": "Zainou 'Gnome' Shield Management SM-704",
+			"volume": 1
+		},
+		{
+			"typeID": 3082,
+			"typeName": "250mm Railgun II",
+			"volume": 10
+		},
+		{
+			"typeID": 3084,
+			"typeName": "Zainou 'Gnome' Shield Management SM-706",
+			"volume": 1
+		},
+		{
+			"typeID": 3085,
+			"typeName": "Zainou 'Gnome' Shield Emission Systems SE-802",
+			"volume": 1
+		},
+		{
+			"typeID": 3086,
+			"typeName": "Zainou 'Gnome' Shield Emission Systems SE-804",
+			"volume": 1
+		},
+		{
+			"typeID": 3087,
+			"typeName": "Zainou 'Gnome' Shield Emission Systems SE-806",
+			"volume": 1
+		},
+		{
+			"typeID": 3088,
+			"typeName": "Zainou 'Gnome' Shield Operation SP-902",
+			"volume": 1
 		}
-	]
+];
+
+function searchForItemWithName(str) {
+	return itemInfo.filter(function(obj) { return (obj.typeName.indexOf(str) >= 0) })
 }
