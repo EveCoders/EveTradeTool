@@ -5003,5 +5003,5 @@ var itemInfo =
 ];
 
 function searchForItemWithName(str) {
-	return itemInfo.filter(function(obj) { return (obj.typeName.indexOf(str) >= 0) })
+	return itemInfo.filter(function(obj) { return (obj.typeName.toLowerCase().indexOf(str.toLowerCase()) >= 0) })
 }
