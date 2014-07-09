@@ -56,28 +56,21 @@
       <div class="container">
         <h1>EVE Central testing site</h1>
         <p>Let' test something...</p>
-        <form class="form-horizontal" role="form">
-          <div class="form-group">
-            <label for="item_name" class="col-sm-2 control-label">Item</label>
-            <div class="col-sm-4">
-              <input type="text" class="form-control" id="item_name" placeholder="Item name">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="region_name" class="col-sm-2 control-label">Region</label>
-            <div class="col-sm-4">
-              <input type="text" class="form-control" id="region_name" placeholder="Region Limit">
-            </div>
-          </div>
-      
-          <div class="form-group">
-            <label for="report_age_limit" class="col-sm-2 control-label">Report Age</label>
-            <div class="col-sm-4">
-              <input type="text" class="form-control" id="report_age_limit" placeholder="Report Age Limit">
-            </div>
-          </div>
-        </form>
+        <div class="col-md-4 input-group sell_order_input">
+          <span class="input-group-addon"><span class="glyphicon glyphicon-tag"></span></span>
+          <input type="text" class="form-control" placeholder="Item name">
+        </div>
+        
+        <div class="col-md-4 input-group sell_order_input">
+          <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></span>
+          <input type="text" class="form-control" placeholder="Region Limit">
+        </div>
+        
+        <div class="col-md-4 input-group sell_order_input">
+          <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+          <input type="text" class="form-control" placeholder="Max. Report Age">
+        </div>
+        
         <p><a class="btn btn-primary btn-lg" role="button" id="fetch-marketstats">Show me the sell orders! &raquo;</a></p>
       </div>
     </div>

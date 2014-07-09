@@ -4,8 +4,17 @@
    Author's custom styles
    ========================================================================== */
 
+.sell_order_input {
+   margin: 10px 0 7px 50px;
+}
 
+.sell_order_input:first-of-type{
+   margin-top: 24px;
+}
 
+.sell_order_input:last-of-type{
+   margin-bottom: 36px;
+}
 
 
 
