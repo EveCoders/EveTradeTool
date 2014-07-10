@@ -5,24 +5,24 @@
    ========================================================================== */
 
 .sell_order_input {
-   margin: 10px 0 7px 50px;
-}
-
-.sell_order_input:first-of-type{
-   margin-top: 24px;
+   margin: 12px 0 7px 0px;
 }
 
 .sell_order_input:last-of-type{
    margin-bottom: 36px;
 }
 
+.guess-field {
+   margin-left: 39px;
+   position: relative;
+   bottom: 8px;
+   
+}
 
+.guess-field .list-group-item{
+   background-color: rgba(255,255,255,0.5);
+}
 
-
-
-
-
-
-
-
-
+.guess-field .list-group-item:hover{
+   background:  rgba(0,0,0,0.1);
+}
