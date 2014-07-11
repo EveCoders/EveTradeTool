@@ -18,17 +18,25 @@
    bottom: 8px;
    
    display:none;
+   
+   max-height: 200px;
+   overflow-y: scroll;
 }
 
-.guess-field .list-group-item{
+#input-item-guess-field {
+   margin-bottom: 0;
+}
+
+
+.guess-field .list-group-item {
    background-color: rgba(255,255,255,0.5);
 }
 
-.guess-field .list-group-item:hover{
+.guess-field .list-group-item:hover {
    background:  rgba(0,0,0,0.1);
 }
 
-#fetch-marketstats{
+#fetch-marketstats {
    margin: 30px auto;
    float: none;
    width: 36%;
