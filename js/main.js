@@ -1,10 +1,38 @@
 /*Main JS, at your service*/
 
-var item_name_string;
+
 $(document).ready(function(){
     
     var $tableBody = $('#market_table');
     var $xmlMarketData; /*Ein jQuery Objekt mit einem XML drin.*/
+    var item_name_string;
+    
+    // autosuggestions while typing
+    $('#input-item_name').on('keyup', function() {
+        item_name_string = $('#input-item_name').val();
+        // skip rest if we don't have at least three characters
+        if ( item_name_string.length < 3) {
+          $('#input-item-guess-field').parent().fadeOut();
+          return;
+          
+        }
+        var matched_items = searchForItemWithName(item_name_string);
+        
+        $('#input-item-guess-field').empty();
+        $('#input-item-guess-field').parent().fadeIn();
+        
+        $(matched_items).each(function(){
+          $('#input-item-guess-field').append('<li class="list-group-item">'+this.typeName+'</li>');
+          
+        })
+        
+        $('#input-item-guess-field').contents().on('click', function(){
+           $('#input-item_name').val($(this).text());
+           $('#input-item-guess-field').parent().fadeOut();
+          });
+        
+    })
+
     $('#fetch-marketstats').on('click', function(){
         // Get item name form value string
         item_name_string = $('#input-item_name').val();
@@ -13,7 +41,7 @@ $(document).ready(function(){
         console.log("Item Name: " + item_name_string);
 
         // lookup corresponding typeID of first matching item
-        //var matched_items = searchForItemWithName(item_name_string);
+
         //console.log("Matched items: " + matched_items);
         var tid = getFirstMatchingTypeID(item_name_string);
         if (tid === -1) {
@@ -55,12 +83,7 @@ $(document).ready(function(){
                                   '</td></tr>');                    
                 }
             );
-            
-
         });
-        
-
-    
     });
     
 });
