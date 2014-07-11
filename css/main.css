@@ -17,6 +17,7 @@
    position: relative;
    bottom: 8px;
    
+   display:none;
 }
 
 .guess-field .list-group-item{
@@ -25,4 +26,11 @@
 
 .guess-field .list-group-item:hover{
    background:  rgba(0,0,0,0.1);
+}
+
+#fetch-marketstats{
+   margin: 30px auto;
+   float: none;
+   width: 36%;
+   min-width: 238px;
 }
