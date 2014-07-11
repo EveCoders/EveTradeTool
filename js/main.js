@@ -11,7 +11,8 @@ $(document).ready(function(){
 
     var $tableBody = $('#market_table');
     var $xmlMarketData; /*Ein jQuery Objekt mit einem XML drin.*/
-    var item_name_string, region_name_string;
+    var item_name_string, region_name_string, max_report_age_string;
+    var mra; // max report age
     
     // autosuggestions while typing
     $('#input-item_name').on('keyup', function() {
@@ -64,10 +65,10 @@ $(document).ready(function(){
 
     $('#fetch-marketstats').on('click', function(){
         /* ITEM text field */
+        // In case we didn't have text input substitute by a default search string
+        if ($('#input-item_name').val() === '') $('#input-item_name').val('Tritanium');
         // Get item name form value string
         item_name_string = $('#input-item_name').val();
-        // In case we didn't have text input substitute by a default search string
-        if (item_name_string === '') item_name_string = 'Tritanium';
         console.log("Item Name: " + item_name_string);
 
         // lookup corresponding typeID of first matching item
@@ -80,10 +81,10 @@ $(document).ready(function(){
         }
 
         /* REGION text field */
+        // In case we didn't have text input substitute by a default search string
+        if ($('#input-region_name').val() === '') $('#input-region_name').val('Domain');
         // Get region name form value string
         region_name_string = $('#input-region_name').val();
-        // In case we didn't have text input substitute by a default search string
-        if (region_name_string === '') region_name_string = 'Domain';
         console.log("Region Name: " + region_name_string);
 
         // lookup corresponding typeID of first matching item
@@ -95,10 +96,21 @@ $(document).ready(function(){
             return; // bypass market data query and return early
         }
         
+        /* REPORT AGE text field */
+        // In case of a missing input set a default value
+        if ($('#input-max-report-age').val() === '') $('#input-max-report-age').val(24);
+        max_report_age_string = $('#input-max-report-age').val();
+        
+        mra = parseInt(max_report_age_string,10);
+        if (isNaN(mra) || mra<=0) {
+          alert('Please specify maximum report age in hours as a positive integer value.');
+        }
+        console.log('Maximum report age: ' + max_report_age_string);
+        
         var url = 'http://api.eve-central.com/api/quicklook',
             settings = {
                typeid : tid,
-               sethours : 24,
+               sethours : mra,
                regionlimit : rid
             };
     
